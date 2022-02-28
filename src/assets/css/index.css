@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('/src/assets/img/bg.png') ;
+  background-position: center;
+  background-size: cover; */
+  background: linear-gradient(to right, #5BCED0, #2836E4, #E11EFC);
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  min-height: 58vh;
+  width: 100%;
+  /* background: none; */
+  background: #02082a;
+  /* background: #02082a73; */
+  /* opacity: 0.4; */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  /* right: 0 */
+}
+
+.wave {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  /* position: relative;
+  display: block; */
+  width: calc(100% + 1.3px);
+  height: 104px;
+}
+
+.wave .shape-fill {
+  fill: #02082A;
+  /* fill: #02082a73; */
+}
+
+.footer{
+  min-height: 50vh;
+  /* background: linear-gradient(to right, #5BCED0, #2836E4, #E11EFC); */
+  /* opacity: 0.9; */
+  /* position: relative */
+}
+
+.nav-links{
+  width: auto
+}
+
+.navbar-container{
+  background-color: #02082A;
+  font-family: 'consolas' !important;
+  padding: 30px !important;
+}
+
+.navbar-container img{
+  height: 60px
+}
+
+.incognito{
+  height: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.nav-link{
+  color: #fff !important;
+  font-weight: bold;
+  /* font-size: 105%; */
+  margin: 0 5px
+}
+
+.special-link{
+  color: #5BCED0;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 3px
+}
+
+.login-button{
+  background: linear-gradient(to right, #5BCED0, #2836E4, #E11EFC);
+  padding: 15px 25px !important;
+  border-radius: 30px
+}
