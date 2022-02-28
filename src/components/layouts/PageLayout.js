@@ -5,7 +5,7 @@ export default function PageLayout({children}){
     return(
         <div>
             <NavBar />
-            <div className="header d-flex align-items-end">
+            <div className="header">
                 {children}
             </div>
             <Footer />

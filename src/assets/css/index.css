@@ -25,6 +25,8 @@ code {
   top: 0;
   left: 0; */
   /* right: 0 */
+  /* border: 1px solid white;
+  position: relative */
 }
 
 .wave {
@@ -88,8 +90,34 @@ code {
   padding-bottom: 3px
 }
 
-.login-button{
+.round-button{
   background: linear-gradient(to right, #5BCED0, #2836E4, #E11EFC);
   padding: 15px 25px !important;
   border-radius: 30px
+}
+
+.consolas{
+  font-family: 'consolas' !important;
+}
+
+.container-div{
+  height: 100%;
+}
+
+.waiting-font{
+  font-family: 'Sunflower'
+}
+
+.sif-button{
+  border: none;
+  background: linear-gradient(to right, #5BCED0, #2836E4, #E11EFC);
+  padding: 15px 25px !important;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.sif-input{
+  padding: 15px 25px !important;
+  border-radius: 30px;
+  border: none;
 }

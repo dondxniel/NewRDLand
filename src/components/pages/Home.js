@@ -1,12 +1,13 @@
+import JoinWaitinglist from '../presentational/JoinWaitingList';
+
 export default function Home(){
     return (
         <div>
-      <div className="header d-flex align-items-end">
-        
-      
-      </div>
-      
-    </div>
+            <div className="header pb-5">
+                <JoinWaitinglist />
+            </div>
+            
+        </div>
 
     )
 }

@@ -28,7 +28,7 @@ export default function NavBar(){
                         <Col className = "text-center" md = {2}>
                             <Nav>
                                 <Link className = "nav-link" to = "/" ><span className = "special-link" >Join</span></Link>
-                                <Link className = "nav-link login-button" to = "/" >Login</Link>
+                                <Link className = "nav-link round-button" to = "/" >Login</Link>
                             </Nav>
                         </Col>
                     </Row>
