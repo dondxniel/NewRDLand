@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar(){
     return (
-        <Navbar collapseOnSelect expand="lg"  className ="navbar-container" variant="dark">
+        <Navbar className = "navbar" collapseOnSelect expand="lg"  className ="navbar-container" variant="dark">
         <Container>
             <Navbar.Brand href="/">
                 <img src={logo} alt="Site Logo" />
@@ -27,8 +27,8 @@ export default function NavBar(){
                         </Col>
                         <Col className = "text-center" md = {2}>
                             <Nav>
-                                <Link className = "nav-link" to = "/" ><span className = "special-link" >Join</span></Link>
-                                <Link className = "nav-link round-button" to = "/" >Login</Link>
+                                <Link className = "nav-link" to = "/join" ><span className = "special-link" >Join</span></Link>
+                                <Link className = "nav-link round-button" to = "/login" >Login</Link>
                             </Nav>
                         </Col>
                     </Row>

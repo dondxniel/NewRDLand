@@ -90,6 +90,15 @@ code {
   padding-bottom: 3px
 }
 
+.special-link-color{
+  color: #5BCED0;
+  text-decoration: none;
+}
+
+.special-link-color:hover{
+  color: #5BCED0;
+}
+
 .round-button{
   background: linear-gradient(to right, #5BCED0, #2836E4, #E11EFC);
   padding: 15px 25px !important;
@@ -201,4 +210,24 @@ code {
 
 .footer-links{
   height: 20px
+}
+
+.navbar{
+  position: sticky
+}
+
+.form-input{
+  padding: 15px 25px !important;
+  border-radius: 30px;
+  border: none;
+  min-width: 75%;
+}
+
+.form-button{
+  border: none;
+  background: linear-gradient(to right, #5BCED0, #2836E4, #E11EFC);
+  padding: 15px 25px !important;
+  border-radius: 30px;
+  font-weight: bold;
+  min-width: 40%;
 }
