@@ -107,6 +107,10 @@ code {
 .waiting-font{
   font-family: 'Sunflower'
 }
+/*
+.sif-inner-container{
+  width: 350px;
+}
 
 .sif-button{
   border: none;
@@ -114,14 +118,53 @@ code {
   padding: 15px 25px !important;
   border-radius: 30px;
   font-weight: bold;
+
+  float: right;
+  min-width: 100px;
+  margin-left: -50px;
+  z-index: 1;
 }
 
 .sif-input{
   padding: 15px 25px !important;
   border-radius: 30px;
   border: none;
+
+  float: left;
+  width: 300px;
+  z-index: -1;
+}
+*/
+.sif-inner-container{
+  padding: 0 0 0 25px !important;
+  border-radius: 30px;
+  border: none;
+  background: #fff;
+  width: fit-content;
+  /* height: 60px */
 }
 
+.sif-input{
+  /* height: 100%; */
+  border: none;
+  margin-top: 10px;
+  float: left;
+  /* width: 300px; */
+  /* z-index: -1; */
+}
+.sif-input:active{
+  border: none !important;
+}
+.sif-button{
+  border: none;
+  background: linear-gradient(to right, #5BCED0, #2836E4, #E11EFC);
+  padding: 15px 25px !important;
+  border-radius: 30px;
+  font-weight: bold;
+
+  /* margin-left: auto;
+  margin-right: 0; */
+}
 .footer-links{
   height: 20px
 }
