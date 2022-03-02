@@ -63,7 +63,7 @@ code {
 
 .navbar-container{
   background-color: #02082A;
-  font-family: 'consolas' !important;
+  font-family: 'Inconsolata' !important;
   padding: 30px !important;
 }
 
@@ -106,7 +106,7 @@ code {
 }
 
 .consolas{
-  font-family: 'consolas' !important;
+  font-family: 'Inconsolata' !important;
 }
 
 .container-div{
