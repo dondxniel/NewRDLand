@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar(){
     return (
-        <Navbar className = "navbar" collapseOnSelect expand="lg"  className ="navbar-container" variant="dark">
+        <Navbar collapseOnSelect expand="lg"  className ="navbar-container navbar" variant="dark">
         <Container>
             <Navbar.Brand href="/">
                 <img src={logo} alt="Site Logo" />
